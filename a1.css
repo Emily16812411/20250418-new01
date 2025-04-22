@@ -1,4 +1,13 @@
+* {
+    font-family: "Zhi Mang Xing", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+
 h1 {
+    
     color: rgb(189, 179, 41);
     font-size: 50px solid ;
     font-weight: 900;
@@ -7,7 +16,7 @@ h1 {
 
 h2 {
     color: rgb(189, 179, 41);
-    font-size: 36px solid ;
+   /font-size: 36px solid ;
     font-weight: 900;
     }
 
