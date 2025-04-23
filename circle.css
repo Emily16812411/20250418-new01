@@ -1,9 +1,4 @@
-body {
-    font-family: "Microsoft JhengHei", sans-serif;
-  }
-
-
-  .circle{
+.circle {
     width: 100px;
     height: 100px;
     border-radius: 100%;
@@ -13,20 +8,21 @@ body {
     top: 0px;
 }
 
-.box{
+.box {
     /*position: relative;*/
     width: 200px;
     height: 200px;
     border: 1px solid blue;
 }
-.container{
+
+.container {
     position: relative;
     width: 400px;
     height: 400px;
     border: 2px solid rgb(0, 255, 21);
 }
 
-.movie-list{
+.movie-list {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
@@ -34,7 +30,7 @@ body {
 
 }
 
-.movie-item{
+.movie-item {
     width: 200px;
     border: 1px solid #AC6EDB;
     text-align: center;
