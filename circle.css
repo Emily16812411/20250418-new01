@@ -27,14 +27,72 @@
     flex-wrap: wrap;
     gap: 16px;
     justify-content: center;
-
 }
 
-.movie-item {
+.movie-item-1 {
+    list-style-type: none;
     width: 200px;
     border: 1px solid #AC6EDB;
     text-align: center;
     height: 300px;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+}
+
+.movie-item-2 {
+    list-style-type: none;
+    width: 200px;
+    border: 1px solid #AC6EDB;
+    text-align: center;
+    height: 300px;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.movie-item-3 {
+    list-style-type: none;
+    position: relative;
+    width: 200px;
+    border: 1px solid #ccc;
+    text-align: center;
+    height: 300px;
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.movie-item-4 {
+    list-style-type: none;
+    width: 200px;
+    border: 1px solid #AC6EDB;
+    text-align: center;
+    height: 300px;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dd {
+    position: absolute;
+    width: 200px;
+    border: 1px solid #ff080800;
+    align-content: space-around;
+    bottom: 65px;
+}
+
+.qq {
+    position: absolute;
+    width: 200px;
+    border: 1px solid #ff080800;
+    align-content: space-around;
+    bottom: 0px;
+}
+
+
+.a {
+    background-image: url(https://cdn.hk01.com/di/media/images/2888085/org/66edee0745f0935a148f7d354a01fbad.jpg/cuN_xL7INCbVv2gu0x0lTTL93A-ppWP9bwwxO28MMTs?v=w1920);
+
 }
