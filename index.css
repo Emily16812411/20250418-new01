@@ -1,3 +1,32 @@
+.header_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.heaber_seater-continer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+}
+.header_container > h1 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+.header_container > h2 {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}   
+
 .movie__list {
     display: flex;
     flex-wrap: wrap;
